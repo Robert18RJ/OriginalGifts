@@ -13,15 +13,15 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 public class FormActivity extends AppCompatActivity {
-    Button inicior;
+    Button inicior2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form2);
 
-        inicior = (Button)findViewById(R.id.button);
+        inicior2=(Button)findViewById(R.id.button);
 
-        inicior.setOnClickListener(new View.OnClickListener() {
+        inicior2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(FormActivity.this, Product.class);
